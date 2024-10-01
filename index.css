@@ -233,7 +233,7 @@ section main .description p{
 }
 
 
-section main .cloner-cube-simple-wrapper {
+section .cloner-cube-simple-wrapper {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
@@ -243,10 +243,9 @@ section main .cloner-cube-simple-wrapper {
     align-items: center;
     position: relative;
     flex: 1;
-    flex-grow: 1;
 }
 
-section main .cloner-cube-simple {
+section .cloner-cube-simple {
     position: relative;
     flex: 1;
     align-self: stretch;
